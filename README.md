@@ -45,7 +45,7 @@ ensure sliss_speedcams
 ---
 
 ## Example Config
-
+```
 Config.SpeedCams = {
     {
         coords    = vector3(0.0, 0.0, 0.0),
@@ -63,6 +63,6 @@ CONST = {
     PRICE_PER_KMH = 10,     -- €10 per km/h over the limit
     MAX_SINGLE_FINE = 2000  -- Maximum fine per violation
 }
-
+```
 [esx]: https://github.com/esx-framework/esx_core "ESX (tested on 1.12.3)"
 [oxlib]: https://github.com/overextended/ox_lib "ox_lib (tested on 3.30.6)"
