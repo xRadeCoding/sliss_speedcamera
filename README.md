@@ -44,6 +44,15 @@ ensure sliss_speedcams
 
 ---
 
+5. **Add your billing logic**  
+In `shared/classes/speedcamera.lua`, inside the `_triggerFlash` function, you’ll see a placeholder comment:
+
+```
+-- BILLING EXPORT
+```
+
+---
+
 ## Example Config
 ```
 Config.SpeedCams = {
