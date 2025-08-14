@@ -22,8 +22,8 @@ Whether your server enforces strict roleplay traffic laws or you simply want to 
 ## Installation
 
 1. **Download or clone** the resource into your `resources` folder:
-```bash
-git clone https://github.com/your-username/sliss_speedcams.git```
+
+git clone https://github.com/your-username/sliss_speedcams.git
 
 2. **Dependencies** (make sure these are running before this resource):
 
@@ -32,8 +32,7 @@ git clone https://github.com/your-username/sliss_speedcams.git```
 
 3. **Add to your `server.cfg`**:
 
-```cfg
-ensure sliss_speedcams```
+ensure sliss_speedcams
 
 4. **Configure your cameras** in `shared/config.lua`:
 
@@ -46,7 +45,7 @@ ensure sliss_speedcams```
 ---
 
 ## Example Config
-```lua
+
 Config.SpeedCams = {
     {
         coords    = vector3(0.0, 0.0, 0.0),
@@ -63,7 +62,7 @@ Config.SpeedCams = {
 CONST = {
     PRICE_PER_KMH = 10,     -- €10 per km/h over the limit
     MAX_SINGLE_FINE = 2000  -- Maximum fine per violation
-}```
+}
 
 [esx]: https://github.com/esx-framework/esx_core "ESX (tested on 1.12.3)"
 [oxlib]: https://github.com/overextended/ox_lib "ox_lib (tested on 3.30.6)"
