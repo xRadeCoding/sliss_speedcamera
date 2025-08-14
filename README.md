@@ -22,18 +22,18 @@ Whether your server enforces strict roleplay traffic laws or you simply want to 
 ## Installation
 
 1. **Download or clone** the resource into your `resources` folder:
-
+```
 git clone https://github.com/your-username/sliss_speedcams.git
-
+```
 2. **Dependencies** (make sure these are running before this resource):
 
 - [ESX (tested on 1.12.3)][esx]
 - [ox_lib (tested on 3.30.6)][oxlib]
 
 3. **Add to your `server.cfg`**:
-
+```
 ensure sliss_speedcams
-
+```
 4. **Configure your cameras** in `shared/config.lua`:
 
 > - Set the **coordinates** (`coords`) for each speed camera using `vector3(x, y, z)`.
