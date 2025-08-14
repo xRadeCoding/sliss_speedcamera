@@ -9,13 +9,13 @@ Whether your server enforces strict roleplay traffic laws or you simply want to 
 ---
 
 ## Features
-> 
-- **Unlimited cameras** – place as many as you like, each with its own custom speed limit.
-- **Automatic fines** – money is taken from the player’s bank first, then from cash; if both are empty, a bill is sent instead.
-- **Optimized performance** – designed to run smoothly even on high-population servers.
-- **Anti-spam cooldown** – prevents players from receiving multiple fines in quick succession.
-- **Fully customizable** – adjust fine rates, maximum fines, and speed limits per camera.
-- **Simple configuration** – all settings are neatly stored in one config file.
+
+> - **Unlimited cameras** – place as many as you like, each with its own custom speed limit.
+> - **Automatic fines** – money is taken from the player’s bank first, then from cash; if both are empty, a bill is sent i nstead.
+> - **Optimized performance** – designed to run smoothly even on high-population servers.
+> - **Anti-spam cooldown** – prevents players from receiving multiple fines in quick succession.
+> - **Fully customizable** – adjust fine rates, maximum fines, and speed limits per camera.
+> - **Simple configuration** – all settings are neatly stored in one config file.
 
 ---
 
@@ -37,9 +37,9 @@ ensure sliss_speedcams
 4. **Configure your cameras** in `shared/config.lua`:
 
 > - Set the **coordinates** (`coords`) for each speed camera using `vector3(x, y, z)`.
-- Define the **maximum speed** (`maxSpeed`) allowed for that camera in km/h.
-- Optionally, set **Notify** (`true`/`false`) to control whether the player receives a notification when fined.
-- Adjust the **fine price per km/h** over the limit and the **maximum fine** allowed in the `CONST`.
+> - Define the **maximum speed** (`maxSpeed`) allowed for that camera in km/h.
+> - Optionally, set **Notify** (`true`/`false`) to control whether the player receives a notification when fined.
+> - Adjust the **fine price per km/h** over the limit and the **maximum fine** allowed in the `CONST`.
 
 
 ---
